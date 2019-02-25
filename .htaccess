@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteBase /
+ErrorDocument 404 /err404.php
+ErrorDocument 500 /err500.php
