@@ -374,7 +374,7 @@
  /* [EVENT ITSELF] */
  div.event {
  	padding: 20px 30px;
- 	background-color: rgb(248, 242, 242);
+ 	background-color: rgb(242, 247, 248);
  	position: relative;
  	border-radius: 4px;
  }
@@ -521,7 +521,7 @@
  	border-radius: 50%;
  	background: #ec496e;
  	font-size: 64px;
- 	color: #fff;
+ 	color: rgb(36, 231, 156);
  	line-height: 100px;
  	z-index: 1;
  	position: relative
@@ -823,4 +823,12 @@
  	.main-timeline .timeline:nth-child(2n) .timeline-content:after {
  		left: 65px
  	}
+ }
+
+ .link-a{
+	 cursor: pointer;
+	 text-decoration:blink;
+	 font-size: 20px;	 
+	 color:rgb(181, 230, 48);
+	 font-family: 'Lucida Sans';
  }

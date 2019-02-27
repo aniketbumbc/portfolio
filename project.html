@@ -119,8 +119,29 @@
             </footer>
     
 		
-		
-		
+
+
+<script type="text/javascript">
+var col = new String();
+var x=1;var y;
+
+function blink()
+{
+ if(x%2) 
+ {
+  col = "rgb(255,0,0)";
+ }else{
+  col = "rgb(255,255,255)";
+ }
+
+ aF.style.color=col;x++;if(x>2){x=1};setTimeout("blink()",500);
+}
+</script>
+
+
+<body onload="blink()">
+
+<a id="aF" href="http://www.google.com"><b>*Google!*</b><br>
 		
 		
 		
